@@ -6,7 +6,7 @@ const JobApplicationRow = ({application, index}) => {
     
     return (
         <div>
-            <tr>
+            <table>
                 <th>
                     <label>
                         {index + 1}
@@ -36,7 +36,7 @@ const JobApplicationRow = ({application, index}) => {
                 <th>
                     <button className="btn btn-ghost btn-xs">details</button>
                 </th>
-            </tr>
+            </table>
         </div>
     );
 };
